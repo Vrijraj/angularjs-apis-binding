@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <script src="ng-main.js"></script>
+</head>
+
+<body class="grey lighten-5">
+
+  <!-- Header-->
+  <nav class="navbar navbar-expand-lg navbar-light white fixed-top" id="navbarTop">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link2</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header-->
+  <br><br>
+  <!-- Bottom Navigation -->
+  <nav class="navbar navbar-dark indigo darken-2 accent-3 z-depth-2 fixed-bottom d-block d-md-block d-sm-block d-lg-none text-center" id="navBottom">
+    <div class="container-fluid">
+        <div class="row text-center p-0" style="width: 120%;">
+            <div class="col-md-3 col-sm-3 col-3 text-center p-0">
+              <a class="navbar-brand text-center pb-0 pt-0 pl-3 pr-3 waves-effect" href="#">
+                <i class="fa fa-home mb-0" aria-hidden="true"></i>
+                <p style="font-size: 40%" class="mb-0 mt-0">Home</p>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3 p-0 text-center p-0">
+              <a class="navbar-brand text-center pb-0 pt-0 pl-3 pr-3 waves-effect" href="#">
+                <i class="fa fa-tasks mb-0" aria-hidden="true"></i>
+                <p style="font-size: 40%" class="mb-0 mt-0">Link1</p>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3 p-0 text-center">
+              <a class="navbar-brand text-center pb-0 pt-0 pl-3 pr-3 waves-effect" href="#">
+                <i class="fa fa-users mb-0" aria-hidden="true"></i>
+                <p style="font-size: 40%" class="mb-0 mt-0">Link2</p>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-3 p-0 text-center">
+              <a class="navbar-brand text-center pb-0 pt-0 pl-3 pr-3 waves-effect" href="#">
+                <i class="fa fa-paper-plane-o mb-0" aria-hidden="true"></i>
+                <p style="font-size: 40%" class="mb-0 mt-0">Link3</p>
+              </a>
+            </div>
+        </div>
+    </div>
+  </nav>
+   <!-- Bottom Navigation -->
+
+  <!-- Summery Card -->
+  <div class="container-fluid mt-2 white pb-5">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="container p-0">
+          <div class="row">
+            <div class="col-md-12 mt-3"><h4><i class="fa fa-dashboard" aria-hidden="true"></i>&nbsp;Dashboard</h4></div>
+          </div>
+          <div class="row animated fadeIn">
+
+            <div class="col-md-3 col-6 mt-1 p-3">
+              <!-- Card -->
+              <div class="container-fluid p-3 teal accent-4 text-white z-depth-1" style="border-radius: 8px;">
+                <div class="row">
+                  <div class="col-md-6 col-6">
+                    <h1>83</h1>
+                  </div>
+                  <div class="col-md-6 col-6 float-right">
+                    <i class="fa fa-send float-right fa-3x" style="color:#26a69a" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="mb-0"><b>Registered Users</b></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="font-size: 80%">Lorem ipsum dolor sit</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card -->
+            </div>
+
+            <div class="col-md-3 col-6 mt-1 p-3">
+              <!-- Card -->
+              <div class="container-fluid p-3 purple darken-2 text-white z-depth-1" style="border-radius: 8px;">
+                <div class="row">
+                  <div class="col-md-6 col-6">
+                    <h1>83</h1>
+                  </div>
+                  <div class="col-md-6 col-6 float-right">
+                    <i class="fa fa-tasks float-right fa-3x" style="color:#6a1b9a" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="mb-0"><b>Registered Users</b></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="font-size: 80%">Lorem ipsum dolor sit </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card -->
+            </div>
+
+            <div class="col-md-3 col-6 mt-1 p-3">
+              <!-- Card -->
+              <div class="container-fluid p-3 pink darken-2 text-white z-depth-1" style="border-radius: 8px;">
+                  <div class="row">
+                    <div class="col-md-6 col-6">
+                      <h1>83</h1>
+                    </div>
+                    <div class="col-md-6 col-6 float-right">
+                      <i class="fa fa-users float-right fa-3x" style="color:#ad1457" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="mb-0"><b>Registered Users</b></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p style="font-size: 80%">Lorem ipsum dolor sit </p>
+                    </div>
+                  </div>
+              </div>
+              <!-- Card -->
+            </div>
+
+            <div class="col-md-3 col-6 mt-1 p-3">
+              <!-- Card -->
+              <div class="container-fluid p-3 yellow darken-3 text-white z-depth-1" style="border-radius: 8px;">
+                  <div class="row">
+                    <div class="col-md-6 col-6">
+                      <h1>83</h1>
+                    </div>
+                    <div class="col-md-6 col-6 float-right">
+                      <i class="fa fa-rss float-right fa-3x" style="color:#f57f17" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="mb-0"><b>Registered Users</b></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p style="font-size: 80%">Lorem ipsum dolor sit </p>
+                    </div>
+                  </div>
+              </div>
+              <!-- Card -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Summery Card -->
+
+  <!-- User Data -->
+  <div class="container-fluid pt-5 pb-5 grey lighten-5" ng-controller="userCtrl">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 text-center">
+        <h3><i class="fa fa-users" aria-hidden="true"></i> Users Details : {{userData.data.total}}</h3>       
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="container p-0" >
+          <div class="row p-0" ng-repeat="users in allUser">
+            <!-- Showing User Details Card -->
+            <div class="col-md-4 col-12 col-sm-4 mt-4 animated fadeInUp" ng-repeat="user in users.data" > 
+              <!-- Tablet Desktop View -->
+              <div class="container-fluid white d-none d-sm-block d-md-block d-xl-block border-grey">
+                <div class="row" >
+                  <div class="col-md-12 text-center pt-4 pb-3" >
+                    <img ng-src="{{user.avatar}}" class="rounded-circle" alt="" srcset="" style="width: 10vh">
+                    <br><br>
+                    <h5 class="h5-responsive"><b>{{user.first_name}} {{user.last_name}} </b></h5>
+                    <p class="text-muted mt-0" style="font-size: 85%">Full Stack Developers</p>
+                    <button class="btn btn-primary btn-sm z-depth-0 hoverable"> <i class="fa fa-plus" aria-hidden="true"></i> &nbsp;Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Tablet Desktop View -->
+              <!-- Mobile View -->
+              <div class="container-fluid white p-3 d-block d-sm-none d-md-none d-xl-none border-grey" >
+                <div class="row">
+                  <div class="col-4">
+                    <img ng-src="{{user.avatar}}" class="rounded-circle" alt="" srcset="" style="width: 8vh">
+                  </div>
+                  <div class="col-8">
+                    <h5 class="h5-responsive"><b>{{user.first_name}} {{user.last_name}} </b></h5>
+                    <p class="text-muted mt-0 mb-1" style="font-size: 85%">Full Stack Developers</p>
+                    <button class="btn m-0 btn-primary btn-sm z-depth-0 hoverable"> <i class="fa fa-plus" aria-hidden="true"></i> &nbsp;Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Mobile View -->
+            </div>
+            <!-- Showing User Details Card -->
+
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+  <!-- User Data -->
+
+  <!-- Footer -->
+  <div class="container-fluid grey lighten-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>Designed and Developed By Vrijraj Singh</p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- SCRIPTS -->
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbarTop").style.top = "0";
+        document.getElementById("navBottom").style.bottom="0";
+        document.getElementById("navbarTop").style.transition = "top 0.3s";
+        document.getElementById("navBottom").style.transition = "bottom 0.3s";
+        // document.getElementById("navbarTop").classList.add("animated fadeInUp");
+      } else {
+        document.getElementById("navbarTop").style.top = "-57px";
+        document.getElementById("navBottom").style.bottom="-66px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MD JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
